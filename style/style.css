@@ -57,6 +57,9 @@
 .focus {
     margin-top: 40px;
 }
+.bgc{
+    background-color: #c7b5b55a;
+}
 
 .action {
     display: flex;
@@ -101,7 +104,7 @@
 }
 .productive h1{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
     margin-top: 30px;
 }
 .cards {
@@ -116,4 +119,61 @@
 }.card p{
     color: rgba(37, 36, 50, 0.5);
     font-size: larger;
+}
+
+.contact {
+  display: flex;
+  padding: 10px 150px;
+  gap: 110px;
+  margin-bottom: 30px;
+}
+
+.contact-left {
+  flex: 1;
+  padding: 30px 0;
+}
+
+.contact-left h1 {
+  font-size: 90px;
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-right input,
+.contact-right textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #D6DDED;
+  border-radius: 6px;
+}
+
+footer{
+    padding: 50px 455px;
+    align-items: center;
+    text-align: center;
+}
+footer h1{
+    font-weight: bold;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+footer p{
+    color: #8987A1;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    gap:50px;
+    justify-content: center;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #8987A1;
 }
