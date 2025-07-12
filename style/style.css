@@ -14,9 +14,15 @@
 }
 
 .btn:hover {
-    background-color: rgba(213, 196, 196, 0.504);
+    background-color: lightgray;
     color: #327cde;
     font-weight: bolder;
+}
+.btn:active {
+  background-color: #4E47FF;
+    color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
 }
 
 .hero {
@@ -59,7 +65,7 @@
     margin-top: 40px;
 }
 
-.bgc {
+main {
     background-color: #c7b5b511;
 }
 
@@ -156,7 +162,6 @@
     padding: 20px;
     width: 300px;
     text-align: left;
-    transition: transform 0.3s ease;
 }
 
 .repeat-star {
@@ -237,7 +242,7 @@
 }
 
 footer {
-    padding: 100px 455px;
+    padding: 100px 450px;
     align-items: center;
     text-align: center;
 }
